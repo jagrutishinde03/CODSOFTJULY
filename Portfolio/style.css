@@ -1,0 +1,363 @@
+/* Global Styles */
+
+.section-name {
+  font-family: 'Arial', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation Bar */
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Header */
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 190px 0;
+  }
+  
+  header h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .scroll-to-nav {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scroll-to-nav:hover {
+    background-color: #555;
+  }
+  
+  .scroll-to-nav i {
+    transform: rotate(-0deg);
+  }
+  
+  /* About Section */
+  
+  #about {
+    background-color: #f2f2f2;
+    padding: 160px;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-content {
+    flex-basis: 60%;
+      margin-right: 40px;
+    }
+   
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+   
+  .profile-image {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Skills Section */
+  
+  #skills {
+    padding: 10px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card {
+    flex-basis: 45%;
+    padding: 5px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #ebeaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .skill-card i {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .skill-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .skill-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .language-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .language-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .language-item img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .language-item span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .language-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  /* Projects Section */
+  
+  .projects-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #projects {
+    padding: 10px;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .projects-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    MARGIN-LEFT: 340px;
+  }
+  
+  .projects-item {
+    background-color: #474747;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fcf9f9;
+  }
+  
+  .projects-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .section-name {
+    font-family: 'Arial', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  
+  /* Achievement Section */
+  .achievement-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #achievements {
+    padding: 50px;
+  }
+  
+  .achievement-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .achievement-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    MARGIN-LEFT: 200px;
+  }
+  
+  .achievement-item {
+    background-color: #ebeaea;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .achievement-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .achievement-image {
+    max-width: 300px;
+    MARGIN-RIGHT: 200px;
+  }
+  
+  .achievement-image img {
+    display: block;
+    width: 500px;
+    width: 180%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Resume Section */
+  
+  #resume {
+    background-color: #f2f2f2;
+    padding: 250px;
+    text-align: center;
+  }
+  
+  #resume h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #resume p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  #resume a {
+    color: #cdcdcd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  #resume a:hover {
+    color: #666;
+  }
+  
+  /* Contact Section */
+  
+  #contact {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Footer */
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
